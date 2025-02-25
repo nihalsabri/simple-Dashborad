@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="icon"  href="./assets/SpaceX-White-Dark-Background-Logo.wine.svg">   
+</head>
+<body>
+
+ <aside>
+    <nav>
+        <img src="./assets/SpaceX-White-Logo.wine.svg" alt="logo" width="400px" height="auto">
+         </nav>
+<h2>Menu</h2>
+
+<ul class="sidebar"> 
+    <li> <a id ="payloadPage" href="#">Payload</a></li> 
+    <li> <a id ="Events" href="#">Events History</a></li> 
+ </ul>
+
+
+<!-- 
+<a id ="payloadPage" href="#">Payload</a>
+<a id ="Events" href="#">Events History</a> -->
+
+ </aside>
+<main>
+    <div class="top">
+    <figure class="highcharts-figure">
+        <div id="container"></div>
+    </figure>
+    
+    <div class="label-select-container"> 
+        <label for="payloadType">Payload Type:</label> 
+        <select id="payloadType" multiple>
+
+        </select>
+     </div>
+
+    </div>
+<table>
+    <thead> <tr> 
+        
+        <th>ID</th> 
+        <th>Name</th>
+         <th>Type</th> 
+        <th>Reused</th> 
+        <th>customers</th>
+        <th>nationalities</th>
+     </tr> 
+    </thead>
+    <tbody id="payloaddata"> 
+
+    </tbody>
+</table>
+
+
+</main>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

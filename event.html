@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events History</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"  href="./assets/SpaceX-White-Dark-Background-Logo.wine.svg">   
+</head>
+<body>
+    <!-- sidebarr -->
+
+    <aside>
+        <nav>
+            <img src="./assets/SpaceX-White-Logo.wine.svg" alt="logo" width="400px" height="auto">
+            </nav>
+    <h2>Menu</h2>
+    <ul class="sidebar"> 
+        <li> <a id ="payloadPage" href="#">Payload</a></li> 
+        <li> <a id ="Events" href="#">Events History</a></li> 
+    </ul>
+    
+    </aside>
+
+
+<!-- line Chart -->
+
+<figure class="highcharts-figure">
+    <div id="containerL"></div>
+   
+</figure>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="./event.js"></script>
+</body>
+</html>
